@@ -22,6 +22,12 @@ class JoinFragment : Fragment() {
             toolbarJoin.run{
                 title = "회원가입"
             }
+
+            buttonJoinNext.run{
+                setOnClickListener {
+                    mainActivity.replaceFragment("AddUserInfoFragment", true, null)
+                }
+            }
         }
 
         // Inflate the layout for this fragment
