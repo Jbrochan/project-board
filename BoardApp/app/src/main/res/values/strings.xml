@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BoardApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_fragment_user_id">아이디</string>
+    <string name="login_fragment_user_pw">비밀번호</string>
+    <string name="login_fragment_button_login">로그인</string>
+    <string name="login_fragment_button_join">회원가입</string>
 </resources>
