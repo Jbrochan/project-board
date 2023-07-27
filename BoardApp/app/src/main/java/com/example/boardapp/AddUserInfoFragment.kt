@@ -22,6 +22,14 @@ class AddUserInfoFragment : Fragment() {
             toolbarAddUserInfo.run{
                 title = "추가 정보 입력"
             }
+
+            buttonAddUserInfoDone.run{
+                // 완료 버튼을 터치하면 로그인 화면으로 이동
+                setOnClickListener {
+                    mainActivity.removeFragment("AddUserInfoFragment")
+                    mainActivity.removeFragment("JoinFragment")
+                }
+            }
         }
 
         return fragmentAddUserInfoBinding.root
