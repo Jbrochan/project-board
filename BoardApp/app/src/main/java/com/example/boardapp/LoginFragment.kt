@@ -22,6 +22,13 @@ class LoginFragment : Fragment() {
             toolbarLogin.run{
                 title = "로그인"
             }
+
+            buttonLoginJoin.run{
+                setOnClickListener {
+                    // 회원가입 화면으로 이동
+                    mainActivity.replaceFragment("JoinFragment", true, null)
+                }
+            }
         }
 
         return fragmentLoginBinding.root

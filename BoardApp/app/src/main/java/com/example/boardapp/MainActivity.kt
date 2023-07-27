@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object{
         val LOGIN_FRAGMENT = "LoginFragment"
+        val JOIN_FRAGMENT = "JoinFragment"
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         // 새로운 Fragment를 담을 변수
         newFragment = when(name){
             LOGIN_FRAGMENT -> LoginFragment()
+            JOIN_FRAGMENT -> JoinFragment()
             else -> Fragment()
         }
 
