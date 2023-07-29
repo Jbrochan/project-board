@@ -36,5 +36,6 @@
         android:id="@+id/navigationViewBoardMain"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="left|start" />
+        android:layout_gravity="left|start"
+        app:menu="@menu/menu_navigation_drawer_board_main" />
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_item"
+        android:title="@string/board_main_fragment_main_item"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/all_item"
+                android:checkable="true"
+                android:title="@string/board_main_fragment_all_item" />
+            <item
+                android:id="@+id/free_item"
+                android:checkable="true"
+                android:title="@string/board_main_fragment_free_item" />
+            <item
+                android:id="@+id/humor_item"
+                android:checkable="true"
+                android:title="@string/board_main_fragment_humor_item" />
+            <item
+                android:id="@+id/question_item"
+                android:checkable="true"
+                android:title="@string/board_main_fragment_question_item" />
+            <item
+                android:id="@+id/sports_item"
+                android:checkable="true"
+                android:title="@string/board_main_fragment_sports_item" />
+            <item
+                android:id="@+id/fix_item"
+                android:checkable="true"
+                android:title="@string/board_main_fragment_fix_item" />
+            <item
+                android:id="@+id/logout_item"
+                android:checkable="true"
+                android:title="@string/board_main_fragment_logout_item" />
+            <item
+                android:id="@+id/signout_item"
+                android:checkable="true"
+                android:title="@string/board_main_fragment_signout_item" />
+        </menu>
+    </item>
+</menu>
