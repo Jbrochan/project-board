@@ -3,11 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/main_item"
-        android:title="@string/board_main_fragment_main_item"
+        android:id="@+id/board_item"
+        android:title="@string/board_main_fragment_board_item"
         app:showAsAction="always">
         <menu>
-
             <item
                 android:id="@+id/all_item"
                 android:checkable="true"
@@ -28,6 +27,13 @@
                 android:id="@+id/sports_item"
                 android:checkable="true"
                 android:title="@string/board_main_fragment_sports_item" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/user_item"
+        android:title="@string/board_main_fragment_user_item"
+        app:showAsAction="always">
+        <menu>
             <item
                 android:id="@+id/fix_item"
                 android:checkable="true"

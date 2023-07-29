@@ -16,12 +16,13 @@
     <string name="add_user_info_fragment_nickname">닉네임</string>
     <string name="add_user_info_fragment_done">완료</string>
 
-    <string name="board_main_fragment_main_item">게시판</string>
+    <string name="board_main_fragment_board_item">게시판</string>
     <string name="board_main_fragment_all_item">전체게시판</string>
     <string name="board_main_fragment_free_item">자유게시판</string>
     <string name="board_main_fragment_humor_item">유머게시판</string>
     <string name="board_main_fragment_question_item">질문게시판</string>
     <string name="board_main_fragment_sports_item">스포츠게시판</string>
+    <string name="board_main_fragment_user_item">사용자</string>
     <string name="board_main_fragment_fix_item">사용자 정보 수정</string>
     <string name="board_main_fragment_logout_item">로그아웃</string>
     <string name="board_main_fragment_signout_item">회원탈퇴</string>
