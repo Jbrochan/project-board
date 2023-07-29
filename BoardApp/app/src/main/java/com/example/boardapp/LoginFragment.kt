@@ -23,6 +23,14 @@ class LoginFragment : Fragment() {
                 title = "로그인"
             }
 
+            buttonLoginLogin.run{
+                setOnClickListener {
+                    // 메인 화면으로 이동
+                    mainActivity.removeFragment("LoginFragment")
+                    mainActivity.replaceFragment("BoardMainFragment", false, null)
+                }
+            }
+
             buttonLoginJoin.run{
                 setOnClickListener {
                     // 회원가입 화면으로 이동

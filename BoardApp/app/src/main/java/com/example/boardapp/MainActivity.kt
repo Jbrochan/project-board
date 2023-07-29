@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         val LOGIN_FRAGMENT = "LoginFragment"
         val JOIN_FRAGMENT = "JoinFragment"
         val ADD_USER_INFO_FRAGMENT = "AddUserInfoFragment"
+        val BOARD_MAIN_FRAGMENT = "BoardMainFragment"
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,6 +44,7 @@ class MainActivity : AppCompatActivity() {
             LOGIN_FRAGMENT -> LoginFragment()
             JOIN_FRAGMENT -> JoinFragment()
             ADD_USER_INFO_FRAGMENT -> AddUserInfoFragment()
+            BOARD_MAIN_FRAGMENT -> BoardMainFragment()
             else -> Fragment()
         }
 
@@ -72,7 +74,7 @@ class MainActivity : AppCompatActivity() {
             newFragment?.returnTransition = MaterialSharedAxis(MaterialSharedAxis.X, false)
 
             // Fragment를 교채한다.
-            fragmentTransaction.replace(R.id.mainContainer, newFragment!!)
+            fragmentTransaction.replace(R.id.fragmentContainerViewMain, newFragment!!)
             if (addToBackStack == true) {
                 // Fragment를 Backstack에 넣어 이전으로 돌아가는 기능이 동작할 수 있도록 한다.
                 fragmentTransaction.addToBackStack(name)
